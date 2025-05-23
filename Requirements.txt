@@ -1,3 +1,5 @@
 streamlit
 google-generativeai
 fpdf
+Pillow             # For image handling
+requests           # For external API calls
