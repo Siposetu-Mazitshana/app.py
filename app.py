@@ -549,8 +549,6 @@ if __name__ == "__main__":
     result = call_gemini(prompt)
     print(result)
 
-!pip install google-generativeai
-
 import google.generativeai as genai
 genai.configure(api_key="AIzaSyDGDivFa-0KGtbt8f_gEb-AWbiK4vC5n6g")
 model = genai.GenerativeModel("gemini-1.5-pro")
