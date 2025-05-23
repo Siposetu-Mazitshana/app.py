@@ -392,6 +392,7 @@ if __name__ == "__main__":
         elif choice == "3":
             prompt = prompt_ad_headline(product, features, tone, audience)
         elif choice == "4":
+            prompt = prompt_email_intro(product, features, tone, audience)
 # ▶️ Main script
 if __name__ == "__main__":
     print("🛍️ AI Marketing Copy Generator\n")
